@@ -2,11 +2,17 @@
 
 package main
 
-import "github.com/Marcelo-Magal/go-studies/basics/greetings"
+import (
+	"fmt"
+
+	"github.com/Marcelo-Magal/go-studies/basics/greetings"
+	"rsc.io/quote/v4"
+)
 
 func main() {
 	greetings.SayHello()
 	greetings.SayHi()
+	fmt.Println(quote.Go())
 }
 
 // #### Explicação:
